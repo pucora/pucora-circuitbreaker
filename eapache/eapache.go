@@ -6,7 +6,7 @@ Sample backend extra config
 	...
 	"extra_config": {
 		...
-		"github.com/pucora/velonetics-circuitbreaker/eapache": {
+		"github.com/pucora/pucora-circuitbreaker/eapache": {
 			"success": 60,
 			"timeout": "10s",
 			"error": 5
@@ -28,7 +28,7 @@ import (
 )
 
 // Namespace is the key to use to store and access the custom config data
-const Namespace = "github.com/pucora/velonetics-circuitbreaker/eapache"
+const Namespace = "github.com/pucora/pucora-circuitbreaker/eapache"
 
 // Config is the custom config struct containing the params for the eapache/go-resiliency/breaker package
 type Config struct {

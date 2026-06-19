@@ -9,7 +9,7 @@ import (
 	"github.com/pucora/lura/v2/config"
 	"github.com/pucora/lura/v2/proxy"
 
-	gcb "github.com/pucora/velonetics-circuitbreaker/v3/gobreaker"
+	gcb "github.com/pucora/pucora-circuitbreaker/v3/gobreaker"
 	"github.com/pucora/lura/v2/logging"
 )
 

@@ -10,7 +10,7 @@ import (
 	"github.com/pucora/lura/v2/config"
 	"github.com/pucora/lura/v2/proxy"
 
-	"github.com/pucora/velonetics-circuitbreaker/v3/eapache"
+	"github.com/pucora/pucora-circuitbreaker/v3/eapache"
 )
 
 func TestNewMiddleware_multipleNext(t *testing.T) {
