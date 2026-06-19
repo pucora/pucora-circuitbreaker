@@ -6,7 +6,7 @@ Sample backend extra config
 	...
 	"extra_config": {
 		...
-		"github.com/velonetics/velonetics-circuitbreaker/gobreaker": {
+		"github.com/pucora/velonetics-circuitbreaker/gobreaker": {
 			"interval":        60,
 			"timeout":         10,
 			"max_errors":       5,
@@ -27,13 +27,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/logging"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/logging"
 	"github.com/sony/gobreaker/v2"
 )
 
 // Namespace is the key to use to store and access the custom config data
-const Namespace = "github.com/velonetics/velonetics-circuitbreaker/gobreaker"
+const Namespace = "github.com/pucora/velonetics-circuitbreaker/gobreaker"
 
 // Config is the custom config struct containing the params for the sony/gobreaker package
 type Config struct {

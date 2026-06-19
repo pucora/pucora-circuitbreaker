@@ -5,7 +5,7 @@ name = "go"
 enabled = true
 
   [analyzers.meta]
-  import_root = "github.com/velonetics/velonetics-circuitbreaker"
+  import_root = "github.com/pucora/velonetics-circuitbreaker"
 
 [[transformers]]
 name = "gofmt"

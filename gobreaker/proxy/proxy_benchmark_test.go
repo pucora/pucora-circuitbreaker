@@ -6,11 +6,11 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/velonetics/lura/v2/config"
-	"github.com/velonetics/lura/v2/proxy"
+	"github.com/pucora/lura/v2/config"
+	"github.com/pucora/lura/v2/proxy"
 
-	gcb "github.com/velonetics/velonetics-circuitbreaker/v3/gobreaker"
-	"github.com/velonetics/lura/v2/logging"
+	gcb "github.com/pucora/velonetics-circuitbreaker/v3/gobreaker"
+	"github.com/pucora/lura/v2/logging"
 )
 
 func BenchmarkNewCircuitBreakerMiddleware_ok(b *testing.B) {
